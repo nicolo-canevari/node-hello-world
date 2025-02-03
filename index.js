@@ -7,7 +7,7 @@
 // Uso import al posto di require perchè chalck è in versione "^5.4.1", l'API è cambiata e il modo di usare i colori è diverso rispetto alle versioni precedenti
 import chalk from 'chalk';
 
-// Stampo il risultato sul terminale => npm run watch (grazie a watch)
+// Stampo il risultato sul terminale => npm run watch 
 console.log(chalk.red.bold('Hello Boolean'));
 
 

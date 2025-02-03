@@ -26,7 +26,7 @@ Svolgimento:
 
 5. Modifico il file "package.json" e aggiungo uno script "start" per eseguire facilmente il file con l'inserimanto di "npm run start" sul terminale.
 
-6. Installo la libreria nodemon ( npm install --save-dev nodemon ) per configurare watch e aggiungo watch nel package.json
+6. Installo la libreria nodemon ( npm install --save-dev nodemon ) che mi permette di monitorare le modifiche ai file in tempo reale. Per configurare watch lo nello script di package.json
 
 7. Eseguo watch con il comando ( npm run watch ) 
 
