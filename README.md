@@ -23,4 +23,7 @@ Svolgimento:
 
 4. Una volta creato il file "package.json" creo il file index.js e scrivo un consol.log per stampare il risultato sul terminale, con "node index.js" verifico se appare la scritta "Hello World".
 
-5. Modifico il file "package.json" e aggiungo uno script "start" per eseguire facilmente il file con l'inserimanto di "npm run start".
+5. Modifico il file "package.json" e aggiungo uno script "start" per eseguire facilmente il file con l'inserimanto di "npm run start" sul terminale.
+
+---- Bonus ----
+6. Installo il pacchetto "chalk" (npm install chalk)
