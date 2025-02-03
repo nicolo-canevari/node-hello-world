@@ -7,7 +7,7 @@
 // Uso import al posto di require perchè chalck è in versione 5.0.0, l'API è cambiata e il modo di usare i colori è diverso rispetto alle versioni precedenti
 import chalk from 'chalk';
 
-console.log(chalk.red('Hello World'));
+console.log(chalk.red.bold('Hello World'));
 
 
 
