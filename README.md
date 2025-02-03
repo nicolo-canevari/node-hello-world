@@ -30,4 +30,6 @@ Svolgimento:
 
 7. All'interno del file index.js modifico il codice per utilizzare chalk e colorare il testo. Visto che chack è una versione 5.0 uso import anzichè require e aggiungo "type": "module", nel .json per correggere l'interpretazione del modulo ECMAScript (definisce le regole e le funzionalità che devono essere implementate dai motori JavaScript per garantire che il codice scritto in JavaScript sia compatibile tra diversi ambienti (browser, Node.js, ecc.).)
 
-8. Creo il file .gitignore (  )
+8. Creo il file .gitignore ( New-Item .gitignore -ItemType File )
+
+9. Aggiungo il file.gitignore ( git add .gitignore ), faccio il commit delle modifiche ( git commit -m "Aggiunto .gitignore per ignorare la cartella node_modules/" ) e infine eseguo il push del commit su GitHub ( git push ).
