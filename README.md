@@ -27,3 +27,5 @@ Svolgimento:
 
 ---- Bonus ----
 6. Installo il pacchetto "chalk" (npm install chalk)
+
+7. All'interno del file index.js modifico il codice per utilizzare chalk e colorare il testo 
