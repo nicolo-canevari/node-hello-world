@@ -12,3 +12,15 @@ Consegna:
    
 Bonus
 Proviamo a installare un pacchetto, (tipo chalk) proviamo ad utilizzarlo e aggiungere la cartella dei moduli scaricati in .gitignore
+
+
+Svolgimento:
+1. Eseguo il comando "npm init" per inizializzare un nuovo progetto Node.js (nella cartella dell' esercizio).
+
+2. Quando mi viene chiesto il "package-name" inserisco "hello-world-app".
+
+3. Durante la procedura di inizializzazione salto tutte le domande per generare il package.json con i valori predefiniti e alla fine confermo.
+
+4. Una volta creato il file "package.json" creo il file index.js e scrivo un consol.log per stampare il risultato sul terminale, con "node index.js" verifico se appare la scritta "Hello World".
+
+5. Modifico il file "package.json" e aggiungo uno script "start" per eseguire facilmente il file con l'inserimanto di "npm run start".
