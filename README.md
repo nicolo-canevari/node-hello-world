@@ -13,9 +13,10 @@ Consegna:
 Bonus
 Proviamo a installare un pacchetto, (tipo chalk) proviamo ad utilizzarlo e aggiungere la cartella dei moduli scaricati in .gitignore
 
+---------------------------------------------------------------------------
 
 Svolgimento:
-1. Eseguo il comando "npm init" per inizializzare un nuovo progetto Node.js (nella cartella dell' esercizio).
+1. Eseguo il comando "npm init" per inizializzare un nuovo progetto Node.js (nella cartella dell'esercizio).
 
 2. Quando mi viene chiesto il "package-name" inserisco "hello-world-app".
 
@@ -25,11 +26,15 @@ Svolgimento:
 
 5. Modifico il file "package.json" e aggiungo uno script "start" per eseguire facilmente il file con l'inserimanto di "npm run start" sul terminale.
 
+6. Installo la libreria nodemon ( npm install --save-dev nodemon ) per configurare watch e aggiungo watch nel package.json
+
+7. Eseguo watch con il comando ( npm run watch ) 
+
 ---- Bonus ----
-6. Installo il pacchetto "chalk" (npm install chalk)
+ Installo il pacchetto "chalk" (npm install chalk)
 
-7. All'interno del file index.js modifico il codice per utilizzare chalk e colorare il testo. Visto che chack è una versione 5.0 uso import anzichè require e aggiungo "type": "module", nel .json per correggere l'interpretazione del modulo ECMAScript (definisce le regole e le funzionalità che devono essere implementate dai motori JavaScript per garantire che il codice scritto in JavaScript sia compatibile tra diversi ambienti (browser, Node.js, ecc.).)
+1. All'interno del file index.js modifico il codice per utilizzare chalk e colorare il testo. Visto che chack è una versione "^5.4.1" uso import anzichè require (CommonJS) e aggiungo "type": "module" nel .json abilitare il supporto ai moduli ES6 in Node.js (ES6: definisce le regole e le funzionalità che devono essere implementate dai motori JavaScript per garantire che il codice scritto in JavaScript sia compatibile tra diversi ambienti (browser, Node.js, ecc.).)
 
-8. Creo il file .gitignore ( New-Item .gitignore -ItemType File )
+2. Creo il file .gitignore ( New-Item .gitignore -ItemType File )
 
-9. Aggiungo il file.gitignore ( git add .gitignore ), faccio il commit delle modifiche ( git commit -m "Aggiunto .gitignore per ignorare la cartella node_modules/" ) e infine eseguo il push del commit su GitHub ( git push ).
+3. Aggiungo il file.gitignore ( git add .gitignore ), faccio il commit delle modifiche ( git commit -m "Aggiunto .gitignore per ignorare la cartella node_modules/" ) e infine eseguo il push del commit su GitHub ( git push ).
