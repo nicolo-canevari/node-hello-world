@@ -8,8 +8,17 @@
 import chalk from 'chalk';
 
 // Stampo il risultato sul terminale => npm run watch 
-console.log(chalk.red.bold('Hello Boolean'));
+console.log(chalk.green.bold('Hello Boolean'));
 
+// console.log(chalk.white.bold('Hello Boolean'));
+
+// console.log(chalk.red.bold('Hello Boolean'));
+
+// console.log(chalk.blue('Hello') + chalk.yellow('Boolean'));
+
+// console.log(chalk.magentaBright.underline('Hello Boolean'));
+
+// console.log(chalk.bgBlue.yellowBright.italic('Hello Boolean'));
 
 
 
